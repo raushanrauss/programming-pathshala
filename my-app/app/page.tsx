@@ -1,23 +1,24 @@
-"use client";
+"use client"
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-
-import { useEffect } from "react";
 import NavbarComponent from "./Component/Navbar";
-import Hero from "./section/Hero ";
+
 import Clients from "./section/Clients";
 import Pixelgrade from "./section/Pixel";
-import BusinessStats from "./section/BussinessStats";
+
 import FooterComponent from "./Component/Footer";
 import Manage from "./section/Manage";
 import Design from "./section/Design";
-import Marketing from "./section/Market";
-import MeetAllCustomers from "./section/AllCustomer";
+
+
 import Demo from "./section/Demo";
+import Hero from "./section/Hero ";
+import BusinessStats from "./section/BussinessStats";
+import MeetAllCustomers from "./section/AllCustomer";
+import Marketing from "./section/Market";
 
-export default function Home() {
-
+const Home: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -59,3 +60,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
