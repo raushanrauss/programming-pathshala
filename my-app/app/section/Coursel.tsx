@@ -8,20 +8,20 @@ import {
 import Hero from "./Hero ";
 
 
-export function CarouselDemo({ dark }) {
+export function CarouselDemo() {
    
     return (
         <div className="w-screen overflow-hidden">
             <Carousel>
                 <CarouselContent className="flex">
                     <CarouselItem className="w-full">
-                        <Hero dark={dark} />
+                        <Hero />
                     </CarouselItem>
                     <CarouselItem className="w-full">
-                        <Hero dark={dark} />
+                        <Hero />
                     </CarouselItem>
                     <CarouselItem className="w-full">
-                        <Hero dark={dark} />
+                        <Hero />
                     </CarouselItem>
                 </CarouselContent>
                 <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-800 cursor-pointer" />
