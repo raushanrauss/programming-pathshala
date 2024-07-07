@@ -32,10 +32,7 @@ const Home: React.FC = () => {
 
   return (
     <main className="dark:bg-slate-800">
-      <div className="bg-white shadow-md fixed w-full z-10 top-0">
-        <NavbarComponent />
-        </div>
-      <div className="bg-white dark:bg-slate-800">
+     <div className="bg-white dark:bg-slate-800 mt-10">
         <CountUpSection endValue={1000} />
       </div>
       

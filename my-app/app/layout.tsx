@@ -35,10 +35,15 @@ export default function RootLayout({
         "min-h-screen bg-background font-sans antialiased",
         fontSans.variable
       )}>
-        <NavbarComponent />
+        <div className="fixed top-0 z-10 w-full bg-white mb-10">
+          <NavbarComponent />
+        </div>
+        
         {children}
-
-        <FooterComponent />
+        <div className="w-full z-10">
+          <FooterComponent />
+        </div>
+        
 
 
       </body>

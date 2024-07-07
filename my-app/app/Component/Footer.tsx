@@ -37,10 +37,9 @@ export const footerLinks = [
 
 const FooterComponent = () => {
     return (
-<Container className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-5 py-5 bg-slate-600"
-            data-aos="fade-up"
-        >
-            <div className="text-white">
+        <Container className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-5 py-5 bg-slate-600"
+            data-aos="fade-up">
+            <div className="text-white w-full lg:w-auto">
                 <Link href="/" className="flex items-center gap-2">
                     <Image src="/LogoIcon.png" width={35} height={24} alt="logo" />
                     <span className="my-auto text-2xl font-bold">Nexcent</span>
@@ -55,7 +54,7 @@ const FooterComponent = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-5">
+            <div className="flex flex-col lg:flex-row gap-5 w-full lg:w-auto">
                 {footerLinks.map((items, index) => (
                     <div key={index} className="text-white">
                         <h5>{items.title}</h5>
