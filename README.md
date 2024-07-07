@@ -8,7 +8,7 @@
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <a href="https://www.figma.com/file/Yzq14EpRfKfaWyCqIdnPLc/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?type=design&node-id=0-1&t=CM2a2ZZQB9syyWZn-0">
+    <a href="https://www.figma.com/design/ZNgCqyJIecOgMZC8BxylB8/PPA-Hiring-Assignment?node-id=0-1&t=GPc9IAVQuRxzwltz-0">
       <img src="https://skillicons.dev/icons?i=figma" />
     </a>
   </a>
