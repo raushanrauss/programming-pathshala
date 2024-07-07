@@ -69,9 +69,7 @@ const Home: React.FC = () => {
   
 
       <ScrollToTopButton />
-      {/* <div className="  fixed  top-0">
-        <ThemeSwitch />
-      </div> */}
+     
       
     </main>
   );
