@@ -3,6 +3,7 @@
 # Project Nexcent - Lessons and Insights Landing Page
 
 ![Screenshot 2024-07-07 125423](https://github.com/raushanrauss/programming-pathshala/blob/main/my-app/public/Screenshot%202024-07-07%20160735.png)
+![Screenshot 2024-07-07 125423](https://github.com/raushanrauss/programming-pathshala/blob/main/my-app/public/Screenshot%202024-07-07%20214653.png)
 
 ### Link to Figma File:
 
