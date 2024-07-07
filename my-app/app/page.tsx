@@ -16,7 +16,7 @@ import ScrollToTopButton from "./Component/ScrollToTopButton";
 
 import { CarouselDemo } from "./section/Coursel";
 import CountUpSection from "./Component/CounterUpSection";
-import ThemeSwitch from "./Component/ThemeSwitch";
+
 
 const Home: React.FC = () => {
 
