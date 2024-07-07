@@ -1,8 +1,9 @@
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+
 
 import Image from "next/image";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
    
@@ -11,12 +12,12 @@ const Hero = () => {
             <div className="font-inter" data-aos="fade-right">
                 <h1 className=" text-gray-900 fw-semibold">
                     Lessons and insights&nbsp; <br />
-                    <span className="text-primary">from 8 years</span>
+                    <span className="text-green-500">from 8 years</span>
                 </h1>
                 <p className="text-gray-400 fw-light fs-6">
                     Where to grow your business as a photographer: site or social media?
                 </p>
-                <Button variant="primary text-white mt-4" size="lg">
+                <Button className=" bg-green-500 text-white mt-4" size="lg">
                     Register
                 </Button>
             </div>

@@ -34,7 +34,7 @@ const Home: React.FC = () => {
   return (
     <main className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
       <div className="bg-white shadow-md fixed w-full z-10 top-0">
-        <NavbarComponent />
+        <NavbarComponent theme={isDarkTheme} />
         </div>
       <div className="mt-10">
         <CountUpSection endValue={1000} />

@@ -1,7 +1,8 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "react-bootstrap/Button";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -15,23 +16,23 @@ const NavbarContent = [
     },
     {
         title: "Service",
-        link: "#service",
+        link: "/service",
     },
     {
         title: "Feature",
-        link: "#feature",
+        link: "/feature",
     },
     {
         title: "Product",
-        link: "#product",
+        link: "/product",
     },
     {
         title: "Testimonial",
-        link: "#testimonial",
+        link: "/testimonial",
     },
     {
         title: "FAQ",
-        link: "#faq",
+        link: "/faq",
     },
 ];
 
@@ -63,7 +64,7 @@ const NavbarComponent = () => {
                         ))}
                     </Nav>
                     <div className="d-flex gap-1 justify-content-end align-items-center">
-                        <Button  className="bg-green-500" type="button">
+                        <Button className="bg-green hover:bg-green-500 border-green-300" type="button">
                             login
                         </Button>
                         <Button className="bg-green-500">Signup</Button>

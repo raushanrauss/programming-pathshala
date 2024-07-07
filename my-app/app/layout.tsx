@@ -3,12 +3,14 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google"
 import "./globals.css";
 {
-  /* The following line can be included in your src/index.js or App.js file */
+
 }
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { cn } from "@/lib/utils"
-//const inter = Inter({ subsets: ["latin"] });
+import { Navbar } from "react-bootstrap";
+import FooterComponent from "./Component/Footer";
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,10 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+  
       <body className={cn(
         "min-h-screen bg-background font-sans antialiased",
         fontSans.variable
       )}>{children}</body>
+    
     </html>
   );
 }
