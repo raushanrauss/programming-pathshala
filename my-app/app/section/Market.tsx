@@ -6,19 +6,19 @@ export const MarkettingContent = [
     {
         id: 1,
         title: "Creating Streamlined Safeguarding Processes with OneRen.",
-        imgUrl: "/Readmore/how.svg",
+        imgUrl: "/image 18.png",
         link: "/blog",
     },
     {
         id: 2,
         title: "What are your responsibilities and how can you manage them?",
-        imgUrl: "/Readmore/manage.svg",
+        imgUrl: "/image 19.png",
         link: "/blog",
     },
     {
         id: 3,
         title: "Revamping the Membership Model with Triathlon Australia.",
-        imgUrl: "/Readmore/revamp.svg",
+        imgUrl: "/image 20.png",
         link: "/blog",
     },
 ];

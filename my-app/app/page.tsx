@@ -15,6 +15,7 @@ import Marketing from "./section/Market";
 import ScrollToTopButton from "./Component/ScrollToTopButton";
 
 import { CarouselDemo } from "./section/Coursel";
+import CountUpSection from "./Component/CounterUpSection";
 
 const Home: React.FC = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -34,31 +35,31 @@ const Home: React.FC = () => {
     <main className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
       <div className="bg-white shadow-md fixed w-full z-10 top-0">
         <NavbarComponent />
+        </div>
+      <div className="mt-10">
+        <CountUpSection endValue={1000} />
       </div>
-
-      <header className="bg-gray-200 pt-10">
+      
+      <header className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
         <CarouselDemo />
       </header>
-
-      <section className="bg-white">
-        <Clients />
+       <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+     <Clients />
         <Manage />
         <Pixelgrade />
-      </section>
-
-      <section className="bg-gray-200">
+        </section>
+       <section>
         <BusinessStats />
       </section>
-
-      <section className="bg-white">
+      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
         <Design />
       </section>
 
-      <section className="bg-gray-200">
+      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
         <MeetAllCustomers />
       </section>
 
-      <section className="bg-white pb-5">
+      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
         <Marketing />
       </section>
 
@@ -66,7 +67,7 @@ const Home: React.FC = () => {
         <Demo />
       </section>
 
-      <footer className="bg-gray-800">
+      <footer className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
         <FooterComponent />
       </footer>
 

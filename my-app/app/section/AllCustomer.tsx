@@ -1,14 +1,14 @@
 import Container from "react-bootstrap/Container";
-import Link from "next/link";
+
 import Image from "next/image";
 
 const MeetAllCustomers = () => {
   return (
     <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center px-5 py-5 gap-3 bg-silver column-gap-3">
       <Image
-        src="/feedback.svg"
-        width={0}
-        height={0}
+        src="/image 9 (1).png"
+        width={200}
+        height={100}
         alt="feedback"
         className="h-auto w-auto"
         data-aos="fade-right"
@@ -33,7 +33,7 @@ const MeetAllCustomers = () => {
         <div className="d-flex flex-sm-row flex-column justify-content-between align-items-lg-center align-items-start">
         {[1, 2, 3, 4, 5, 6, 7].map((value) => (
           <Image
-            src={`/Clients/client${value}.svg`}
+            src={`/customer/${value}.png`}
             width={48}
             height={48}
             alt={`client-${value}`}

@@ -6,17 +6,17 @@ const ManageContent = [
     {
         id: 1,
         title: "Membership Organisations",
-        imgUrl: "/Features/icon1.svg",
+        imgUrl: "/ManageLogo2.png",
     },
     {
         id: 2,
         title: "National Associations",
-        imgUrl: "/Features/icon2.svg",
+        imgUrl: "/ManageLog.png",
     },
     {
         id: 3,
         title: "Clubs And Similar Groups",
-        imgUrl: "/Features/icon3.svg",
+        imgUrl: "/statslogo3.png",
     },
 ];
 

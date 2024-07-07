@@ -6,17 +6,17 @@ const StatContent = [
     {
         title: "Members",
         value: 2245341,
-        imgUrl: "/Vector.png",
+        imgUrl: "/statsLogo2.png",
     },
     {
         title: "Clubs",
         value: 46328,
-        imgUrl: "/Vector.png",
+        imgUrl: "/statsLogo3.png",
     },
     {
         title: "Event Bookings",
         value: 828267,
-        imgUrl: "/Vector.png",
+        imgUrl: "/Icon (1).png",
     },
     {
         title: "Payments",

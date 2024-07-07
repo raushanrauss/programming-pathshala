@@ -13,7 +13,7 @@ const Clients = () => {
             <div className="d-flex align-items-center w-100 justify-content-between flex-wrap mt-5" data-aos="zoom-in">
                 {[1, 2, 3, 4, 5, 6, 7].map((value) => (
                     <Image
-                        src={`/Clients/client${value}.svg`}
+                        src={`/client/${value}.png`}
                         width={48}
                         height={48}
                         alt={`client-${value}`}

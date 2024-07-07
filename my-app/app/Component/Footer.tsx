@@ -12,10 +12,10 @@ const SocialIcon = ({ imgUrl }: { imgUrl: string }) => {
 };
 
 const socialMediaContent = [
-    "/SocialMedia/instagram.svg",
-    "/SocialMedia/dribble.svg",
-    "/SocialMedia/twitter.svg",
-    "/SocialMedia/youtube.svg",
+    "/Social Icons.png",
+    "/Path.png",
+    "/twitter.png",
+    "/youTube.png",
 ];
 
 export const footerLinks = [
@@ -46,7 +46,7 @@ const FooterComponent = () => {
                     href="/"
                     className="navbar-brand d-flex flex-row align-items-center gap-2"
                 >
-                    <Image src="/logo_icon.svg" width={35} height={24} alt="logo" />
+                    <Image src="/LogoIcon.png" width={35} height={24} alt="logo" />
                     <span className="my-auto font-inter text-white fs-2 fw-bold">
                         Nexcent
                     </span>
@@ -89,7 +89,7 @@ const FooterComponent = () => {
                             placeholder="Your email address"
                         />
                         <button className="btn btn-dark">
-                            <Image src="/send.svg" height={20} width={20} alt="send" />
+                            <Image src="/inputIcon.png" height={20} width={20} alt="send" />
                         </button>
                     </div>
                 </div>

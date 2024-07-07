@@ -6,7 +6,7 @@ const Design = () => {
     return (
         <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center px-5 my-5 bg-white column-gap-3">
             <Image
-                src="/Frame 35.png"
+                src="/pana.png"
                 width={300}
                 height={300}
                 alt="use-Img"
