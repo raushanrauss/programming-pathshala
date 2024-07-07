@@ -8,8 +8,10 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { cn } from "@/lib/utils"
-import { Navbar } from "react-bootstrap";
+
 import FooterComponent from "./Component/Footer";
+import NavbarComponent from "./Component/Navbar";
+
 
 
 export const metadata: Metadata = {
@@ -32,7 +34,12 @@ export default function RootLayout({
       <body className={cn(
         "min-h-screen bg-background font-sans antialiased",
         fontSans.variable
-      )}>{children}</body>
+      )}>
+       <NavbarComponent/>
+        {children}
+        
+      <FooterComponent/>
+      </body>
     
     </html>
   );

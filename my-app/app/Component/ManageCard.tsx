@@ -16,7 +16,7 @@ const ManageCard = ({ id, imgUrl, title }: ManageCardProps) => {
             <Image src={imgUrl} width={65} height={65} alt={title} />
             <div className="d-flex flex-column text-center gap-1">
                 <h1 className="fs-1 fw-bold text-gray-900">{title}</h1>
-                <p className="fs-6 fw-light text-gray-200">
+                <p className="fs-6 fw-light text-gray-600">
                     Our membership management software provides full automation of
                     membership renewals and payments.
                 </p>

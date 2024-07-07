@@ -27,7 +27,7 @@ const Manage = () => {
                 <h1 className="fs-1 lh-base text-gray-900 fw-bold">
                     Manage your entire community <br /> in a single system
                 </h1>
-                <p className="text-gray-200 fw-light fs-6">
+                <p className="text-gray-600 fw-light fs-6">
                     Who is Nextcent suitable for?
                 </p>
             </div>

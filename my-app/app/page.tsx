@@ -16,9 +16,10 @@ import ScrollToTopButton from "./Component/ScrollToTopButton";
 
 import { CarouselDemo } from "./section/Coursel";
 import CountUpSection from "./Component/CounterUpSection";
+import ThemeSwitch from "./Component/ThemeSwitch";
 
 const Home: React.FC = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
 
   useEffect(() => {
     AOS.init({
@@ -27,23 +28,21 @@ const Home: React.FC = () => {
     });
   }, []);
 
-  const toggleTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
-  };
+ 
 
   return (
-    <main className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+    <main className="bg-white dark:bg-slate-800">
       <div className="bg-white shadow-md fixed w-full z-10 top-0">
         <NavbarComponent />
         </div>
-      <div className="mt-10">
+      <div className="bg-white dark:bg-slate-800">
         <CountUpSection endValue={1000} />
       </div>
       
-      <header className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+      <header className="bg-slate-200  dark:text-white">
         <CarouselDemo />
       </header>
-       <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+       <section className="">
      <Clients />
         <Manage />
         <Pixelgrade />
@@ -51,35 +50,29 @@ const Home: React.FC = () => {
        <section>
         <BusinessStats />
       </section>
-      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+      <section className="">
         <Design />
       </section>
 
-      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+      <section className="">
         <MeetAllCustomers />
       </section>
 
-      <section className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+      <section className="">
         <Marketing />
       </section>
 
-      <section className="bg-gray-200 mt-5">
+      <section className="bg-gray-200">
         <Demo />
       </section>
 
-      <footer className={`min-h-screen ${isDarkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
-        <FooterComponent />
-      </footer>
+  
 
       <ScrollToTopButton />
-
-      {/* Button to toggle theme */}
-      <button
-        className={`fixed bottom-4 right-4 px-4 py-2 bg-white text-gray-800 border border-gray-800 rounded-md focus:outline-none ${isDarkTheme ? "dark" : "light"}`}
-        onClick={toggleTheme}
-      >
-        {isDarkTheme ? "Switch to Light Theme" : "Switch to Dark Theme"}
-      </button>
+      <div className="  fixed  bottom-10">
+        <ThemeSwitch />
+      </div>
+      
     </main>
   );
 };

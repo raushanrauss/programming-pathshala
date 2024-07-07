@@ -18,7 +18,7 @@ const Pixelgrade = () => {
                     The unseen of spending three&nbsp; <br />
                     years at <span className="text-primary">Pixelgrade</span>
                 </h1>
-                <p className="text-gray-200 fw-light fs-6">
+                <p className="text-gray-600 fw-light fs-6">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
                     justo ipsum. Sed accumsan quam vitae est varius fringilla.
                     Pellentesque placerat vestibulum lorem sed porta. Nullam mattis

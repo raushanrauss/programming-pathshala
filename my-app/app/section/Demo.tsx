@@ -1,5 +1,6 @@
+import { Button } from "@/components/ui/button";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+
 
 const Demo = () => {
     return (
@@ -7,7 +8,7 @@ const Demo = () => {
             <h1 className="fw-bold fs-1 w-100">
                 Pellentesque suscipit<br />fringilla libero eu.
             </h1>
-            <Button variant="primary text-white mt-4" size="lg">Get Demo <svg
+            <Button className=" text-white mt-4" size="lg">Get Demo <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
