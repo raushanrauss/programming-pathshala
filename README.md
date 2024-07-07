@@ -2,13 +2,13 @@
 
 # Project Nexcent - Lessons and Insights Landing Page
 
-![Screenshot 2024-07-07 125423](https://github.com/omunite215/Nexcent/assets/78680563/8a672a28-add5-4c56-8b12-57dfa10505d4)
+![Screenshot 2024-07-07 125423](https://github.com/raushanrauss/programming-pathshala/blob/main/my-app/public/Screenshot%202024-07-07%20160735.png)
 
 ### Link to Figma File:
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <a href="https://www.figma.com/file/Yzq14EpRfKfaWyCqIdnPLc/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?type=design&node-id=0-1&t=CM2a2ZZQB9syyWZn-0">
+    <a href="https://www.figma.com/design/ZNgCqyJIecOgMZC8BxylB8/PPA-Hiring-Assignment?node-id=0-1&t=GPc9IAVQuRxzwltz-0">
       <img src="https://skillicons.dev/icons?i=figma" />
     </a>
   </a>
