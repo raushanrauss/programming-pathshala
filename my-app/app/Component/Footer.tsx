@@ -37,7 +37,7 @@ export const footerLinks = [
 
 const FooterComponent = () => {
     return (
-        <Container className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-5 py-5 bg-slate-600"
+        <Container className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-5 py-5 bg-slate-600 lg:w-auto"
             data-aos="fade-up">
             <div className="text-white w-full lg:w-auto">
                 <Link href="/" className="flex items-center gap-2">

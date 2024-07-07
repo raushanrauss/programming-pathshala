@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import NavbarComponent from "./Component/Navbar";
+
 import Clients from "./section/Clients";
 import Pixelgrade from "./section/Pixel";
-import FooterComponent from "./Component/Footer";
+
 import Manage from "./section/Manage";
 import Design from "./section/Design";
 import Demo from "./section/Demo";
@@ -28,23 +28,23 @@ const Home: React.FC = () => {
     });
   }, []);
 
- 
+
 
   return (
     <main className="dark:bg-slate-800">
-     <div className="bg-white dark:bg-slate-800 mt-10">
+      <div className="bg-white dark:bg-slate-800 mt-10">
         <CountUpSection endValue={1000} />
       </div>
-      
+
       <header className="bg-slate-200  dark:text-white">
         <CarouselDemo />
       </header>
       <section className=" dark:bg-slate-800">
-     <Clients />
+        <Clients />
         <Manage />
         <Pixelgrade />
-        </section>
-       <section>
+      </section>
+      <section>
         <BusinessStats />
       </section>
       <section className="">
@@ -63,11 +63,11 @@ const Home: React.FC = () => {
         <Demo />
       </section>
 
-  
+
 
       <ScrollToTopButton />
-     
-      
+
+
     </main>
   );
 };

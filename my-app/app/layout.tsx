@@ -40,7 +40,7 @@ export default function RootLayout({
         </div>
         
         {children}
-        <div className="w-full z-10">
+        <div className="lg:w-auto">
           <FooterComponent />
         </div>
         
