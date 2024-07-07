@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
 import Image from "next/image";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const Hero = () => {
    
@@ -19,6 +20,7 @@ const Hero = () => {
                     Register
                 </Button>
             </div>
+            <Skeleton className="h-[125px] w-[250px] rounded-xl" />
             <Image
                 src="/Illustration.png"
                 alt="Hero"

@@ -37,7 +37,7 @@ const NavbarContent = [
 
 const NavbarComponent = () => {
     return (
-        <Navbar className="bg-silver py-2" collapseOnSelect expand="lg" data-aos="fade-down">
+        <Navbar className="bg-silver py-2 fixed" collapseOnSelect expand="lg" data-aos="fade-down">
             <Container>
                 <Link
                     href="/"
@@ -63,10 +63,10 @@ const NavbarComponent = () => {
                         ))}
                     </Nav>
                     <div className="d-flex gap-1 justify-content-end align-items-center">
-                        <Button variant="outline-primary" type="button">
+                        <Button  className="bg-green-500" type="button">
                             login
                         </Button>
-                        <Button variant="primary text-white">Signup</Button>
+                        <Button className="bg-green-500">Signup</Button>
                     </div>
                 </NavbarCollapse>
             </Container>
