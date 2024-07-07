@@ -11,7 +11,7 @@ import Hero from "./Hero ";
 export function CarouselDemo() {
    
     return (
-        <div className="w-screen overflow-hidden">
+        <div className="w-screen overflow-hidden  dark:bg-slate-800">
             <Carousel>
                 <CarouselContent className="flex">
                     <CarouselItem className="w-full">
@@ -24,8 +24,8 @@ export function CarouselDemo() {
                         <Hero />
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-800 cursor-pointer" />
-                <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2 text-gray-800 cursor-pointer" />
+                <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-800 cursor-pointer  dark:text-white" />
+                <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2 text-gray-800 cursor-pointer  dark:text-white" />
             </Carousel>
         </div>
     );

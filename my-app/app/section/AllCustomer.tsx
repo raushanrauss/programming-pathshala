@@ -14,7 +14,7 @@ const MeetAllCustomers = () => {
         data-aos="fade-right"
       />
       <div className="font-inter" data-aos="fade-left">
-        <p className="fw-medium text-gray-500">
+        <p className="fw-medium text-gray-500  dark:text-white">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
           sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.
           Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
@@ -26,8 +26,8 @@ const MeetAllCustomers = () => {
           neque, eget efficitur libero condimentum id. Curabitur id nibh id sem
           dignissim finibus ac sit amet magna.
         </p>
-        <h1 className="fw-semibold fs-5 text-primary mt-3">Tim Smith</h1>
-        <p className="fw-normal text-gray-100 mt-2">
+        <h1 className="fw-semibold fs-5 text-primary mt-3  dark:text-white">Tim Smith</h1>
+        <p className="fw-normal text-gray-100 mt-2  dark:text-white">
           British Dragon Boat Racing Association
         </p>
         <div className="d-flex flex-sm-row flex-column justify-content-between align-items-lg-center align-items-start">

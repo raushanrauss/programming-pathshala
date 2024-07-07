@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Clients = () => {
     return (
-        <Container className="text-center py-5 bg-white">
-            <div className="font-inter" data-aos="fade-down">
-                <h1 className="text-gray-900 fs-1 fw-bold">Our Clients</h1>
-                <p className="text-gray-500 fw-light fs-6">
+        <Container className="text-center py-5   dark:bg-slate-800 ">
+            <div className="font-inter " data-aos="fade-down">
+                <h1 className="text-gray-900 fs-1 fw-bold  dark:text-white">Our Clients</h1>
+                <p className="text-gray-500 fw-light fs-6  dark:text-white">
                     We have been working with some Fortune 500+ clients
                 </p>
             </div>

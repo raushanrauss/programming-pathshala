@@ -31,7 +31,7 @@ const Home: React.FC = () => {
  
 
   return (
-    <main className="bg-white dark:bg-slate-800">
+    <main className="dark:bg-slate-800">
       <div className="bg-white shadow-md fixed w-full z-10 top-0">
         <NavbarComponent />
         </div>
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
       <header className="bg-slate-200  dark:text-white">
         <CarouselDemo />
       </header>
-       <section className="">
+      <section className=" dark:bg-slate-800">
      <Clients />
         <Manage />
         <Pixelgrade />
@@ -62,16 +62,16 @@ const Home: React.FC = () => {
         <Marketing />
       </section>
 
-      <section className="bg-gray-200">
+      <section className=" dark:bg-slate-800">
         <Demo />
       </section>
 
   
 
       <ScrollToTopButton />
-      <div className="  fixed  bottom-10">
+      {/* <div className="  fixed  top-0">
         <ThemeSwitch />
-      </div>
+      </div> */}
       
     </main>
   );

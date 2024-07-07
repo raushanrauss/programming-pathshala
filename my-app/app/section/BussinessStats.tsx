@@ -28,12 +28,12 @@ const StatContent = [
 const BusinessStats = () => {
     return (
         <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-start align-items-lg-center px-5 py-5 bg-silver">
-            <div className="font-inter" data-aos="fade-right">
-                <h1 className="text-gray-900 fw-semibold">
+            <div className="font-inter" data-aos="fade-right ">
+                <h1 className="text-gray-900 fw-semibold  dark:text-white">
                     Helping a local&nbsp; <br />
                     <span className="text-primary">business reinvent itself</span>
                 </h1>
-                <p className="navtext fw-normal">
+                <p className="navtext fw-normal  dark:text-white">
                     We reached here with our hardwork and dedication.
                 </p>
             </div>

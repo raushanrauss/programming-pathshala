@@ -1,3 +1,5 @@
+
+
 import { Button } from "@/components/ui/button";
 import Container from "react-bootstrap/Container";
 
@@ -5,10 +7,10 @@ import Container from "react-bootstrap/Container";
 const Demo = () => {
     return (
         <Container className="text-secondary text-center font-inter bg-silver mt-5 py-5" data-aos="zoom-in">
-            <h1 className="fw-bold fs-1 w-100">
+            <h1 className="fw-bold fs-1 w-100  dark:text-white">
                 Pellentesque suscipit<br />fringilla libero eu.
             </h1>
-            <Button className=" text-white mt-4" size="lg">Get Demo <svg
+            <Button className=" bg-green-500 text-white mt-4" size="lg">Get Demo <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"

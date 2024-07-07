@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
    
     return (
-        <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center px-5 my-5 bg-silver">
+        <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center px-5 my-5 bg-silver  dark:bg-slate-800">
             <div className="font-inter" data-aos="fade-right">
-                <h1 className=" text-gray-900 fw-semibold">
+                <h1 className=" text-gray-900 fw-semibold  dark:text-white">
                     Lessons and insights&nbsp; <br />
                     <span className="text-green-500">from 8 years</span>
                 </h1>

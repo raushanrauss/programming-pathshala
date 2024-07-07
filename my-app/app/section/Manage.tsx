@@ -22,12 +22,12 @@ const ManageContent = [
 
 const Manage = () => {
     return (
-        <Container className="text-center font-inter bg-white py-5">
+        <Container className="text-center font-inter   dark:bg-slate-800 py-5">
             <div data-aos="fade-down">
-                <h1 className="fs-1 lh-base text-gray-900 fw-bold">
+                <h1 className="fs-1 lh-base text-gray-900 fw-bold  dark:text-white">
                     Manage your entire community <br /> in a single system
                 </h1>
-                <p className="text-gray-600 fw-light fs-6">
+                <p className="text-gray-600 fw-light fs-6  dark:text-white">
                     Who is Nextcent suitable for?
                 </p>
             </div>

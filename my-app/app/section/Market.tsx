@@ -25,12 +25,12 @@ export const MarkettingContent = [
 
 const Marketing = () => {
     return (
-        <Container className="text-center font-inter bg-white py-5">
+        <Container className="text-center font-inter  dark:bg-slate-800 py-5">
             <div className="font-inter" data-aos="fade-right">
-                <h1 className="fs-1 lh-base text-gray-900 fw-bold">
+                <h1 className="fs-1 lh-base text-gray-900 fw-bold  dark:text-white">
                     Caring is the new marketing
                 </h1>
-                <p className="text-gray-500 fw-light fs-6">
+                <p className="text-gray-500 fw-light fs-6  dark:text-slate-400">
                     The Nexcent blog is the best place to read about the latest membership
                     insights, trends and more. <br /> See who&lsquo;s joining the
                     community, read about how our community are <br /> increasing their
